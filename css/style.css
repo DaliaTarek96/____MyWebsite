@@ -1,7 +1,44 @@
 :root{
-    --color-primary: #45479a;
+    --color-primary: #45489a;
     --color-secondary: #f4f4f4;
     --color-accent:#EEEEEE;
-    --color-heading: #241c25;
-    --color-body:#dfe2de;
+    --color-heading: #232323;
+    --color-body:#343434;
+}
+html{
+    /* 62.5 of 16 px = 10px 
+        10 rem = 10 * font size of html font size (10)
+    */
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: white;
+}
+h2,
+h3{
+    color: var(--color-heading);
+}
+h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.color{
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+h3{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-body);
 }
