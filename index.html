@@ -15,23 +15,23 @@
     <header>
       <nav class="nav">
         <div class="icon">
-          <a href=""><i class="fa-solid fa-bars"></i></a>
+          <a id="menu"><i class="fa-solid fa-bars"></i></a>
         </div>
-        <div class="nav__body">
+        <div class="nav__body hide">
           <div class="nav__btn">
             <button class="btn"><b>SEN</b>TRA</button>
           </div>
           <ul class="list">
-            <li class="list__item"><a href="#"><span class="circle"></span>Home</a></li>
-            <li class="list__item"><a href="#"><span class="circle"></span>Featured</a></li>
-            <li class="list__item"><a href="#"><span class="circle"></span>Recent Projects</a></li>
-            <li class="list__item"><a href="#"><span class="circle"></span>Presentation</a></li>
-            <li class="list__item"><a href="#"><span class="circle"></span>Blog Entries</a></li>
-            <li class="list__item"><a href="#"><span class="circle"></span>Contact Us</a></li>
+            <li class="list__item Cintro active"><a href="#intro"><span class="circle"></span>Home</a></li>
+            <li class="list__item Cfeatured"><a href="#featured"><span class="circle"></span>Featured</a></li>
+            <li class="list__item Crecent"><a href="#recent"><span class="circle"></span>Recent Projects</a></li>
+            <li class="list__item Cpresentation"><a href="#presentation"><span class="circle"></span>Presentation</a></li>
+            <li class="list__item Cblog"><a href="#blog"><span class="circle"></span>Blog Entries</a></li>
+            <li class="list__item Ccontact"><a href="#contact"><span class="circle"></span>Contact Us</a></li>
           </ul>
         </div>
       </nav>
-      <div class="intro">
+      <div class="intro" id = "intro">
         <button class="btn intro__button">
           <i class="fa-solid fa-angle-right"></i>
         </button>
@@ -49,7 +49,7 @@
         <div class="clear"></div>
       </div>
     </header>
-    <section class="justify">
+    <section class="justify" id="featured">
       <div class="info">
         <h2>Featured <span>Places</span></h2>
         <p>
@@ -106,7 +106,7 @@
       </div>
     </section>
     <hr >
-    <section class="justify">
+    <section class="justify" id="recent">
       <div class="info">
         <h2>Recent <span>Projects</span></h2>
         <p>
@@ -122,7 +122,7 @@
         <img class="photo_2" src="../images/f4.jpg" alt="f5" >
       </div>
     </section>
-    <section class="justify">
+    <section class="justify" id="presentation">
       <div class="presentation">
         <h2>This is my <span>work</span> presentation.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -140,7 +140,7 @@
         </video>
       </div>
     </section>
-    <section class="justify">
+    <section class="justify" id="blog">
         <div class="info">
           <h2>Blog<br> <span>Entries</span></h2>
           <p>
@@ -196,7 +196,7 @@
         </div>
     </section>
     <hr >
-    <section class="justify">
+    <section class="justify" id="contact">
         <div class="info">
             <h2>Contact <span>Sentra</span></h2>
             <p>
@@ -219,5 +219,6 @@
         <p>copyright &copy; 2024 by Dalia Tarek</p>
       </div>
     </footer>
+    <script src="./js/code.js"></script>
   </body>
 </html>

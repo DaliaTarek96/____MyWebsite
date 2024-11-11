@@ -10,6 +10,7 @@ html{
         10 rem = 10 * font size of html font size (10)
     */
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Open Sans', sans-serif;
@@ -225,7 +226,7 @@ p{
 /* introduction block */
 
 .intro{
-    background-image: url(./../images/intro2.jpg);
+    background-image: url(./../images/intro3.jpg);
     background-size:cover;
     height: 100vh;
     text-align: center;
@@ -278,7 +279,7 @@ p{
 }
 .nav .list {
     position: fixed;
-    display: block;
+    visibility:hidden;
     text-align: center;
     width: 95%;
     background-color: rgba(0, 0, 0, 0.881);
@@ -287,7 +288,9 @@ p{
     left: 2.5%;
     right: 2.5%;
     padding: 20px;
+    
 }
+
 .nav .list a{
     display: inline-block;
     text-decoration: none;
@@ -360,12 +363,12 @@ p{
         }
     }
     
-    .nav .list li:hover > ::before{
+    .nav .list  .active > ::before{
         position: relative;
         visibility: visible;
         top: -7px;
         display: inline-block;
-        animation: line .2s linear ;
+        animation: line .4s linear ;
         content: '____';
     }
     .nav .list a:hover{
@@ -374,7 +377,7 @@ p{
     .nav .btn{
         display: inline-block;
         margin: 2vw;
-        padding: 20px 40px;
+        padding: 1vw 2vw;
         color: var(--color-secondary);
         border: .1rem solid var(--color-secondary);
         font-size: 2.4rem;
