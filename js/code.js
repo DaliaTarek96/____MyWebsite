@@ -4,7 +4,7 @@ const btnNav = document.getElementById('menu');
 const list = document.getElementsByClassName('list')[0];
 
 const blogLi = document.querySelectorAll(".blog ul li");
-if(pageXOffset>992){
+if(pageXOffset<992){
     btnNav.onclick=()=>{
         if (list.style.visibility == 'hidden'){
             list.style.visibility='visible';
@@ -41,7 +41,7 @@ window.onscroll = () => {
         li.classList.add("active");
       }
     });
-    if(pageXOffset>992){
+    if(pageXOffset<992){
 
     if (pageYOffset >40)
         list.style.top='-20px';
