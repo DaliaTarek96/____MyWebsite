@@ -9,7 +9,7 @@ This project combines two distinct components: the user interface (the feel) and
 
 * To run website
 ```
-[code blocks for commands](https://daliatarek96.github.io/____MyWebsite/#intro)
+https://daliatarek96.github.io/____MyWebsite/#intro
 ```
 
 
