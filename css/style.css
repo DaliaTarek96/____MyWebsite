@@ -326,6 +326,7 @@ p{
         text-align: left;
         height: 100vh;
         left: 0;
+        visibility: visible;
     }
 
     .nav .list  .list__item a .circle{
