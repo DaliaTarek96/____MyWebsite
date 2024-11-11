@@ -7,10 +7,9 @@ This project combines two distinct components: the user interface (the feel) and
 
 ### Run website
 
-* How to run the program
-* Step-by-step bullets
+* To run website
 ```
-code blocks for commands
+[code blocks for commands](https://daliatarek96.github.io/____MyWebsite/#intro)
 ```
 
 
